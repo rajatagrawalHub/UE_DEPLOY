@@ -1,0 +1,558 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f2f2f2;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+  cursor: grab;
+}
+
+.flex {
+  display: flex;
+  gap: 6px;
+}
+
+.row,
+.mobileRow {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-18 {
+  gap: 18px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.centerb {
+  justify-content: center;
+  align-self: center;
+}
+
+.center {
+  justify-content: center;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.fitContent {
+  width: fit-content;
+}
+
+.fb1 {
+  flex: 1;
+}
+
+.inputLabel {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.largeText {
+  font-size: 48px;
+}
+
+.fwidth {
+  width: 100%;
+}
+
+.noTextwrap{
+  text-wrap-mode: nowrap;
+  white-space-collapse:preserve;
+}
+
+.rounded {
+  border-radius: 2px;
+}
+
+.fb6 {
+  flex-basis: 15%;
+}
+
+.fxwrap {
+  flex-wrap: wrap;
+}
+
+input,
+select,
+textarea {
+  padding: 10px 64px 10px 16px;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 1px;
+  font-size: 14px;
+}
+
+#container {
+  --primaryColor: #181818;
+  --secondaryColor: #fcfcfc;
+  --accentColor1: rgb(94, 0, 105);
+  --acptColor: green;
+  --rjctColor: red;
+  --accentColor2: goldenrod;
+  --accentColor3: rgb(108, 116, 203);
+
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  min-height: 100svh;
+}
+
+#navbar {
+  background-color: var(--primaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
+  padding: 12px;
+}
+
+.logoTxt {
+  font-size: 24px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.borderBox {
+  border: 2px solid var(--secondaryColor);
+  padding: 24px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.sectionHeading {
+  font-size: 32px;
+}
+
+.whiteBtn {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.transparentBtn {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+.redBtn {
+  background-color: var(--rjctColor);
+  color: var(--secondaryColor);
+}
+
+.navMenuItem {
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 2px;
+  padding: 8px 12px;
+  border-radius: 24px;
+}
+
+.flexRowSplit {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 100%;
+}
+
+.flexItem {
+  flex: 1;
+}
+
+.Mobile {
+  display: none;
+}
+
+.section {
+  margin: 12px;
+}
+
+.fit {
+  width: fit-content;
+}
+
+.headerRow {
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.bottomright {
+  justify-content: flex-end;
+}
+
+.interestCard {
+  padding: 12px 18px;
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.orgCard {
+  background-color: var(--primaryColor);
+  border: 1px solid var(--secondaryColor);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(37, 37, 37, 0.103);
+  padding: 12px 24px;
+  margin: 12px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-basis: 20%;
+  max-width: 300px;
+}
+
+.orgCardTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f7fbff;
+  text-align: center;
+  text-wrap-mode: wrap;
+}
+
+.orgCardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.orgCardRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.orgCardColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px dashed #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.orgLabel {
+  font-weight: 500;
+  color: var(--secondaryColor);
+  flex-basis: 40%;
+}
+
+.orgValue {
+  font-weight: 400;
+  color: var(--secondaryColor);
+  text-align: right;
+  flex-basis: 60%;
+}
+
+.orgValue.description {
+  white-space: normal;
+  word-break: break-word;
+  text-align: justify;
+}
+
+.orgTag {
+  display: inline-block;
+  background-color: var(--accentColor2);
+  color: var(--primaryColor);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.orgCardActions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.orgBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: var(--secondaryColor);
+}
+
+.orgBtn.edit {
+  background-color: var(--accentColor3);
+}
+
+.orgBtn.assign {
+  background-color: var(--acptColor);
+}
+
+.orgBtn.delete {
+  background-color: var(--rjctColor);
+}
+
+.orgBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selected {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+.tvcenter {
+  align-items: center;
+}
+
+.twrap {
+  text-wrap-mode: wrap;
+}
+.mwidth-80px {
+  max-width: 80px;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  max-height: 600px;
+  overflow-y: scroll;
+}
+.errorMsg {
+  color: red;
+  background-color: rgb(255, 186, 186);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.successMsg {
+  color: green;
+  background-color: rgb(186, 255, 233);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.gold{
+  background-color: var(--accentColor2);
+  color: var(--secondaryColor);
+}
+.blue {
+  background-color: var(--accentColor3);
+  color: var(--secondaryColor);
+}
+
+.green {
+  background-color: var(--acptColor);
+  color: var(--secondaryColor);
+}
+
+.red {
+  background-color: var(--rjctColor);
+  color: var(--secondaryColor);
+}
+
+th{
+  cursor: pointer ;
+}
+
+.end{
+  justify-content: flex-end;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #f2f2f273;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 12px;
+}
+
+td {
+  padding: 6px 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.highlightedRow{
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+}
+
+.marg-6{
+  margin:6px;
+}
+
+.hfit{
+  height: fit-content;
+  align-self: flex-end;
+}
+
+.centertd{
+  text-align:center;
+}
+
+#typeDashboard table{
+  margin: 12px 0;
+}
+
+textarea{
+ min-width: 240px;
+ min-height: 80px;
+ resize: none;
+}
+
+@media screen and (max-width: 768px) {
+  .noMobile {
+    display: none;
+  }
+
+  .Mobile {
+    display: block;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .flexRowSplit {
+    flex-direction: column;
+  }
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: -300px;
+  min-width: 220px;
+  max-width: 320px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: slideInRight 0.4s forwards, fadeOut 0.4s ease-in-out 1.6s forwards;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.toast.success {
+  background-color: #28a745;
+}
+
+.tag{
+  color: white;
+  border-radius: 8px;
+  border: 1px solid var(--secondaryColor);
+  padding: 2px 8px;
+}
+
+.gap-6{
+  gap: 6px;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.fb80{
+  flex: 200%;
+}
+
+.subHeading{
+  font-size: 18px;
+}
+
+.align-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pg-top4{
+  padding: 4px 0;
+}
+
+@keyframes slideInRight {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 20px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}

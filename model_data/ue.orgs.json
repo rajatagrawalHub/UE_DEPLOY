@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "name": "Vellore Institute of Technology",
+  "email": "a@b.com",
+  "types": [
+    "Chapters",
+    "Club",
+    "Team"
+  ],
+  "address": "Katpadi",
+  "city": "Vellore",
+  "state": "Tamil Nadu",
+  "poc": "A",
+  "contact": "7903952166",
+  "admins": [
+    {
+      "$oid": "68015c6768748c35a7e310f4"
+    },
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "680162ed1d2360e6e0f64d0a"
+    },
+    {
+      "$oid": "680163041d2360e6e0f64d10"
+    },
+    {
+      "$oid": "680163141d2360e6e0f64d16"
+    }
+  ],
+  "event": [
+    {
+      "$oid": "680168ad16651446c257bb13"
+    }
+  ],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "memberDomain": [],
+  "createdAt": {
+    "$date": "2025-04-17T19:58:33.321Z"
+  },
+  "__v": 7
+},
+{
+  "_id": {
+    "$oid": "68015ed129e60038487661df"
+  },
+  "name": "Birla Institute of Science",
+  "email": "bgoa@bits.ac.in",
+  "types": [
+    "Academic",
+    "Directors"
+  ],
+  "address": "Panaji Road",
+  "city": "Panaji",
+  "state": "Goa",
+  "poc": "B",
+  "contact": "7903952166",
+  "admins": [
+    {
+      "$oid": "68015c9468748c35a7e310f5"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "6801642a1d2360e6e0f64db1"
+    },
+    {
+      "$oid": "680164341d2360e6e0f64db7"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "memberDomain": [],
+  "createdAt": {
+    "$date": "2025-04-17T20:04:33.262Z"
+  },
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "68015f0c29e60038487661e3"
+  },
+  "name": "IIT - Madras",
+  "email": "miit@iitm.ac.in",
+  "types": [
+    "Technical",
+    "Cultural"
+  ],
+  "address": "Madras",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "poc": "C",
+  "contact": "7903952166",
+  "admins": [
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "680163221d2360e6e0f64d1e"
+    },
+    {
+      "$oid": "680163361d2360e6e0f64d24"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "memberDomain": [],
+  "createdAt": {
+    "$date": "2025-04-17T20:05:32.286Z"
+  },
+  "__v": 5
+}]

@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "name": "Rajat Agrawal",
+  "email": "rajat@gmail.com",
+  "password": "$2b$10$QaEXRsEtOT/8z9Mt6Dfk6ucjbhU/P5r44Dh0VHwQtAn7zvzuYkfsO",
+  "gender": "Male",
+  "phoneNumber": "07903952166",
+  "state": "Jharkhand",
+  "nationality": "India",
+  "profession": "Software Engineer",
+  "roles": [
+    "User",
+    "Super Admin",
+    "Organization Admin",
+    "Departmental Admin"
+  ],
+  "organizations": [
+    {
+      "$oid": "68015f0c29e60038487661e3"
+    },
+    {
+      "$oid": "68015d69e9d15da263edd4bf"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "680162ed1d2360e6e0f64d0a"
+    },
+    {
+      "$oid": "6801642a1d2360e6e0f64db1"
+    }
+  ],
+  "interests": [
+    "Science",
+    "Music",
+    "Technology"
+  ],
+  "profilePicture": null,
+  "createdAt": {
+    "$date": "2025-04-17T19:53:15.379Z"
+  },
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68015c6768748c35a7e310f4"
+  },
+  "name": "Vinay Agrawal",
+  "email": "v@gmail.com",
+  "password": "$2b$10$QaEXRsEtOT/8z9Mt6Dfk6ucjbhU/P5r44Dh0VHwQtAn7zvzuYkfsO",
+  "gender": "Male",
+  "phoneNumber": "07903952166",
+  "state": "Jharkhand",
+  "nationality": "India",
+  "profession": "Software Engineer",
+  "roles": [
+    "User",
+    "Organization Admin",
+    "Departmental Admin"
+  ],
+  "organizations": [
+    {
+      "$oid": "68015d69e9d15da263edd4bf"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "680164341d2360e6e0f64db7"
+    }
+  ],
+  "interests": [
+    "Science",
+    "Music",
+    "Technology"
+  ],
+  "profilePicture": null,
+  "createdAt": {
+    "$date": "2025-04-17T19:53:15.379Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "68015c9468748c35a7e310f5"
+  },
+  "name": "Yeshwin Agrawal",
+  "email": "y@gmail.com",
+  "password": "$2b$10$QaEXRsEtOT/8z9Mt6Dfk6ucjbhU/P5r44Dh0VHwQtAn7zvzuYkfsO",
+  "gender": "Male",
+  "phoneNumber": "07903952166",
+  "state": "Jharkhand",
+  "nationality": "India",
+  "profession": "Software Engineer",
+  "roles": [
+    "User",
+    "Organization Admin",
+    "Departmental Admin"
+  ],
+  "organizations": [
+    {
+      "$oid": "68015ed129e60038487661df"
+    }
+  ],
+  "departments": [
+    {
+      "$oid": "680163141d2360e6e0f64d16"
+    }
+  ],
+  "interests": [
+    "Science",
+    "Music",
+    "Technology"
+  ],
+  "profilePicture": null,
+  "createdAt": {
+    "$date": "2025-04-17T19:53:15.379Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "68015c9f68748c35a7e310f6"
+  },
+  "name": "Archit Agrawal",
+  "email": "a@gmail.com",
+  "password": "$2b$10$QaEXRsEtOT/8z9Mt6Dfk6ucjbhU/P5r44Dh0VHwQtAn7zvzuYkfsO",
+  "gender": "Male",
+  "phoneNumber": "07903952166",
+  "state": "Jharkhand",
+  "nationality": "India",
+  "profession": "Software Engineer",
+  "roles": [
+    "User",
+    "Departmental Admin"
+  ],
+  "organizations": [],
+  "departments": [
+    {
+      "$oid": "680163221d2360e6e0f64d1e"
+    },
+    {
+      "$oid": "680163041d2360e6e0f64d10"
+    }
+  ],
+  "interests": [
+    "Science",
+    "Music",
+    "Technology"
+  ],
+  "profilePicture": null,
+  "createdAt": {
+    "$date": "2025-04-17T19:53:15.379Z"
+  },
+  "__v": 2
+}]

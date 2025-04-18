@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "680168ad16651446c257bb13"
+  },
+  "title": "Finance 101",
+  "description": "Join us for this amazing session on the basics of stock market",
+  "tag": [
+    "amazing",
+    "session",
+    "basics"
+  ],
+  "department": {
+    "$oid": "680162ed1d2360e6e0f64d0a"
+  },
+  "category": "Lecture",
+  "startDate": {
+    "$date": "2025-04-16T00:00:00.000Z"
+  },
+  "regStartDate": {
+    "$date": "2025-04-14T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-04-17T00:00:00.000Z"
+  },
+  "regEndDate": {
+    "$date": "2025-04-16T00:00:00.000Z"
+  },
+  "startTime": "02:15",
+  "endTime": "09:15",
+  "numberOfDays": 1,
+  "maxParticipants": 1999,
+  "mode": "Offline",
+  "venue": "MB210",
+  "collaboration": [],
+  "budget": "Non Budget",
+  "budgetAmount": 0,
+  "tags": [],
+  "proposedBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "approvalStatus": "Freezed",
+  "remarks": "approved by admin",
+  "summary": "Best Finance Event",
+  "internalParticipants": [
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "externalParticipants": [],
+  "attendedParticipants": [
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "certificate": true,
+  "createdAt": {
+    "$date": "2025-04-17T20:46:37.921Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-17T23:43:23.258Z"
+  },
+  "__v": 4,
+  "statusUpdatedBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  }
+}]

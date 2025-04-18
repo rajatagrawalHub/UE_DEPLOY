@@ -1,0 +1,174 @@
+[{
+  "_id": {
+    "$oid": "6801b5c75ab911699299b8fe"
+  },
+  "event": {
+    "$oid": "680168ad16651446c257bb13"
+  },
+  "user": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "answers": [
+    {
+      "question": "How satisfied were you with the overall event?",
+      "answer": "Yes",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b8ff"
+      }
+    },
+    {
+      "question": "Was the event content relevant to your interests?",
+      "answer": "Good",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b900"
+      }
+    },
+    {
+      "question": "How effectively did the crux of the evnt was realised?",
+      "answer": "Very Good",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b901"
+      }
+    },
+    {
+      "question": "Was the event organized and timely?",
+      "answer": "Nice",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b902"
+      }
+    },
+    {
+      "question": "How would you rate the venue or online setup?",
+      "answer": "Best",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b903"
+      }
+    },
+    {
+      "question": "What did you find most valuable in this event?",
+      "answer": "Wow",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b904"
+      }
+    },
+    {
+      "question": "What could be improved for future events?",
+      "answer": "Amazing",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b905"
+      }
+    },
+    {
+      "question": "Would you recommend this event to others?",
+      "answer": "Awesome",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b906"
+      }
+    },
+    {
+      "question": "Did the event meet your expectations?",
+      "answer": "Yes",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b907"
+      }
+    },
+    {
+      "question": "Any additional comments or feedback?",
+      "answer": "No",
+      "_id": {
+        "$oid": "6801b5c75ab911699299b908"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-18T02:15:35.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6801b6cc5ab911699299b953"
+  },
+  "event": {
+    "$oid": "680168ad16651446c257bb13"
+  },
+  "user": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "answers": [
+    {
+      "question": "How satisfied were you with the overall event?",
+      "answer": "Yes",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b954"
+      }
+    },
+    {
+      "question": "Was the event content relevant to your interests?",
+      "answer": "Liking It",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b955"
+      }
+    },
+    {
+      "question": "How effectively did the crux of the evnt was realised?",
+      "answer": "Yes",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b956"
+      }
+    },
+    {
+      "question": "Was the event organized and timely?",
+      "answer": "Sure",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b957"
+      }
+    },
+    {
+      "question": "How would you rate the venue or online setup?",
+      "answer": "Obviously",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b958"
+      }
+    },
+    {
+      "question": "What did you find most valuable in this event?",
+      "answer": "Experience is good",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b959"
+      }
+    },
+    {
+      "question": "What could be improved for future events?",
+      "answer": "A lot",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b95a"
+      }
+    },
+    {
+      "question": "Would you recommend this event to others?",
+      "answer": "Ok",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b95b"
+      }
+    },
+    {
+      "question": "Did the event meet your expectations?",
+      "answer": "Yes",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b95c"
+      }
+    },
+    {
+      "question": "Any additional comments or feedback?",
+      "answer": "--",
+      "_id": {
+        "$oid": "6801b6cc5ab911699299b95d"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-18T02:19:56.305Z"
+  },
+  "__v": 0
+}]

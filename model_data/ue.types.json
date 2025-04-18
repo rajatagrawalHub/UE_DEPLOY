@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "680161be1d2360e6e0f64c59"
+  },
+  "name": "Technical",
+  "description": "Technical Departments",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015f0c29e60038487661e3"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:17:02.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680161c81d2360e6e0f64c5c"
+  },
+  "name": "Cultural",
+  "description": "Cultural Departments",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015f0c29e60038487661e3"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:17:12.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680162401d2360e6e0f64c90"
+  },
+  "name": "Management",
+  "description": "Management Departments",
+  "status": "pending",
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:19:12.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680162491d2360e6e0f64c93"
+  },
+  "name": "Design",
+  "description": "Design Departments",
+  "status": "pending",
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:19:21.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680162521d2360e6e0f64c96"
+  },
+  "name": "Team",
+  "description": "Technical Teams",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:19:30.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680162571d2360e6e0f64c99"
+  },
+  "name": "Club",
+  "description": "Clubs",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:19:35.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680162611d2360e6e0f64c9c"
+  },
+  "name": "Chapters",
+  "description": "Chapters",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:19:45.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680163e81d2360e6e0f64d8b"
+  },
+  "name": "Academic",
+  "description": "Academic",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015ed129e60038487661df"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:26:16.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680163f91d2360e6e0f64d8e"
+  },
+  "name": "Directors",
+  "description": "Directors Department",
+  "status": "approved",
+  "organization": {
+    "$oid": "68015ed129e60038487661df"
+  },
+  "createat": {
+    "$date": "2025-04-17T20:26:33.478Z"
+  },
+  "__v": 0
+}]

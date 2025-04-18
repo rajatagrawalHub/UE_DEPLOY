@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6801685c16651446c257bac0"
+  },
+  "name": "Lecture",
+  "description": "Lectures",
+  "status": "approved",
+  "department": {
+    "$oid": "680162ed1d2360e6e0f64d0a"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:45:16.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6801686416651446c257bac3"
+  },
+  "name": "Quiz",
+  "description": "Quizzes",
+  "status": "approved",
+  "department": {
+    "$oid": "680162ed1d2360e6e0f64d0a"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:45:24.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68018798cdd97efa5765f15d"
+  },
+  "name": "Hackathon",
+  "description": "hack",
+  "status": "pending",
+  "department": {
+    "$oid": "6801642a1d2360e6e0f64db1"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T22:58:32.165Z"
+  },
+  "__v": 0
+}]

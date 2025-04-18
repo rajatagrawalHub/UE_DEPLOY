@@ -1,0 +1,185 @@
+[{
+  "_id": {
+    "$oid": "680162ed1d2360e6e0f64d0a"
+  },
+  "name": "Bulls and Bears Club",
+  "type": "Club",
+  "description": "Trading and Finance Club",
+  "category": [
+    "Lecture",
+    "Quiz"
+  ],
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "admins": [
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "event": [
+    {
+      "$oid": "680168ad16651446c257bb13"
+    }
+  ],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:22:05.387Z"
+  },
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "680163041d2360e6e0f64d10"
+  },
+  "name": "Design Club - Pixelate",
+  "type": "Club",
+  "description": "Design Club",
+  "category": [],
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "admins": [
+    {
+      "$oid": "68015c9f68748c35a7e310f6"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:22:28.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680163141d2360e6e0f64d16"
+  },
+  "name": "Albatros",
+  "type": "Team",
+  "description": "Team Designers",
+  "category": [],
+  "organization": {
+    "$oid": "68015d69e9d15da263edd4bf"
+  },
+  "admins": [
+    {
+      "$oid": "68015c9468748c35a7e310f5"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:22:44.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680163221d2360e6e0f64d1e"
+  },
+  "name": "E-Cell",
+  "type": "Technical",
+  "description": "Finance",
+  "category": [],
+  "organization": {
+    "$oid": "68015f0c29e60038487661e3"
+  },
+  "admins": [
+    {
+      "$oid": "68015c9f68748c35a7e310f6"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:22:58.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680163361d2360e6e0f64d24"
+  },
+  "name": "Dance Society",
+  "type": "Cultural",
+  "description": "Dancer Society to represent at multiple levels",
+  "category": [],
+  "organization": {
+    "$oid": "68015f0c29e60038487661e3"
+  },
+  "admins": [],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c2be9d15da263edd48e"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:23:18.560Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6801642a1d2360e6e0f64db1"
+  },
+  "name": "CS",
+  "type": "Academic",
+  "description": "CS Dept",
+  "category": [],
+  "organization": {
+    "$oid": "68015ed129e60038487661df"
+  },
+  "admins": [
+    {
+      "$oid": "68015c2be9d15da263edd48e"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c9468748c35a7e310f5"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:27:22.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680164341d2360e6e0f64db7"
+  },
+  "name": "Mech",
+  "type": "Academic",
+  "description": "Mechanical Dept",
+  "category": [],
+  "organization": {
+    "$oid": "68015ed129e60038487661df"
+  },
+  "admins": [
+    {
+      "$oid": "68015c6768748c35a7e310f4"
+    }
+  ],
+  "event": [],
+  "members": [],
+  "createdBy": {
+    "$oid": "68015c9468748c35a7e310f5"
+  },
+  "createdAt": {
+    "$date": "2025-04-17T20:27:32.641Z"
+  },
+  "__v": 0
+}]
